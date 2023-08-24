@@ -106,6 +106,8 @@ button:active {
     justify-content: center;
     text-decoration: none;
     column-gap: 50px;
+
+    padding-bottom: 30px;
 }
 
 .image-row li {
@@ -123,4 +125,31 @@ button:active {
 .body {
     display: flex;
     flex-flow: column wrap;
+}
+
+.quote-container {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    flex: auto;
+
+    max-width: 1000px;
+}
+
+.quote-author {
+    font-size: 25px;
+    display: flex;
+    text-align: right;
+    max-width: 1000px;
+/*    padding-right: 200px; */
+
 }
