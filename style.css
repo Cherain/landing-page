@@ -130,9 +130,9 @@ button:active {
 .quote-container {
     display: flex;
     flex-flow: column wrap;
+    flex: auto;
     background-color: #E5E7EB;
-    justify-content: center;
-    align-items: center;
+
     padding: 50px 100px 50px 100px;
 }
 
@@ -140,16 +140,19 @@ button:active {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    flex: auto;
 
-    max-width: 1000px;
+
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .quote-author {
     font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
     display: flex;
-    text-align: right;
-    max-width: 1000px;
-/*    padding-right: 200px; */
-
+    justify-content: flex-end;
 }
