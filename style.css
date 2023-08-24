@@ -37,6 +37,10 @@ a:hover {
     color: grey;
 }
 
+img {
+    border-radius: 25px;
+}
+
 .hero {
     background-color: #1F2937;
     margin: 0;
@@ -51,8 +55,6 @@ a:hover {
     display: flex;
     flex: 0 1 auto;
     justify-content: flex-end;
-    
-    border-radius: 25px;
 }
 
 .hero-content {
@@ -97,4 +99,23 @@ button:active {
 .hero button {
     max-width: 100px;
     font-weight: 700;
+}
+
+.image-row ul, .image-row li{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    column-gap: 50px;
+}
+
+.image-row li {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0;
+}
+
+.body h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
 }
