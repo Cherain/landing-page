@@ -119,3 +119,8 @@ button:active {
     font-size: 36px;
     font-weight: 900;
 }
+
+.body {
+    display: flex;
+    flex-flow: column wrap;
+}
