@@ -5,7 +5,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 10px 50px 50px 50px;
+    padding: 10px 100px 50px 100px;
     
     display: flex;
     justify-content: space-between;
@@ -33,12 +33,61 @@ body {
 .hero {
     background-color: #1F2937;
     margin: 0;
-    padding: 10px 50px 50px 50px;
+    padding: 0px 100px 50px 100px;
     display: flex;
+    flex: 1;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.hero-image img {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: flex-end;
+    
+    border-radius: 25px;
+}
+
+.hero-content {
+    display: flex;
+    flex-flow: column wrap;
+    min-width: 500px;
 }
 
 .hero h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+
+}
+
+.hero p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #3b41dd;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+.hero button {
+    max-width: 100px;
+    font-weight: 700;
 }
